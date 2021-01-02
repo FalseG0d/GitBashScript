@@ -1,2 +1,2 @@
 # GitBashScript
-Some simple commands to be used in scripting of Linux terminal.
+Some basic commands and scripts to be used in scripting of Linux terminal.
