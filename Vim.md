@@ -14,9 +14,17 @@ Goto command mode with :
 
 Use vim <filename.extension> to open/create the file.
 Press
-i	To enter insert mode.
+i	To enter insert mode, cursor at the begining of cursor position.
+a	To enter insert mode, cursor at the end of cursor position.
+I	To enter insert mode, cursor at the begining of the line the cursor is at.
+A	To enter insert mode, cursor at the end of the line the cursor is at.
 :	To enter command mode.
 v	To enter visual mode.
+x   To delete the character the cursor is currently at(works in command mode).
+r   To replace the character the cursor is currently at(works in command mode).
+v   To start select mode, use the navigation keys to select the text.
+y   To yank/copy the text.
+p   To paste selected text.
 ESC	To enter normal mode.
 
 ## General Commands
